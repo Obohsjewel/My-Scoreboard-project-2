@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 class="title">Tennis scoreboard</h1>
+        <div class="container">
+            <div class="container2">
+                <div class=player1section>
+                    <h3>PLAYER1</h3>
+                    <p  id ="1player" class="player1score">0</p>
+                    
+                    <div class="btndiv">
+                        <button onclick="plusone()" class="btn">+1</button>
+                        <button onclick="plustwo()" class="btn">+2</button>
+                        <button onclick="plusthree()" class="btn">+3</button>
+                    </div>
+                </div>
+                
+                
+                <div class=player2section>
+                    <h3>PLAYER2</h3>
+                    <p id ="2player" class="player2score">0</p>
+                    
+                    <div class="btndiv">
+                        <button onclick="plusoneii()" class="btn">+1</button>
+                        <button onclick="plustwoii()" class="btn">+2</button>
+                        <button onclick="plusthreeii()" class="btn">+3</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="new">
+                <button id="newbtn" onclick="newGame()" >New Game</button>
+            </div>
+    </div>   
+        <script src="index.js"></script>
+    </body>
+</html>

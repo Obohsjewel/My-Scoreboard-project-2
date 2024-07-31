@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-color: #e26d5c;
+    font-size:20px;
+}
+
+.title{
+    text-align: center;
+    margin:7px;
+}
+
+h3{
+    color: #fefae0;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.container2{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.player1score, .player2score{
+    font-size:100px;
+    background-color: #ffe1a8;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom:20px;
+    border-radius:6px;
+    color:#780000;
+}
+
+.btndiv{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+
+.btn{
+    padding: 8px;
+    border-radius:6px;
+    color:#fefae0;
+    border:2px solid #fefae0;
+    background-color: #e26d5c;
+}
+
+.new{
+    text-align: center;
+     margin-top: 20px;
+}
+
+#newbtn{
+    padding:10px;
+    border-radius:6px;
+    border:none;
+    box-shadow: 4px 4px 15px #fefae0;
+    background-color: #e26d5c;
+    color: #fefae0;
+    text-shadow: 0px 0px 1px white;
+    font-weight: bold;
+}
+
+#newbtn:focus{
+    box-shadow: 4px 4px 60px #c7f9cc;
+    background-color: #f72585;
+}
+
+#newbtn:hover{
+    font-size:30px;
+    background-color: #d0f4de;
+}
+
+
+
+
